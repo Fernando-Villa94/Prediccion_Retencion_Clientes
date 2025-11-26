@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pandas
+sqlalchemy
+pyodbc
+python-dateutil
+joblib
+scikit-learn
+openpyxl
+jinja2
+python-multipart

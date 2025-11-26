@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predicción Retención</title>
+</head>
+<body>
+    <h2>Ejecutar Pipeline</h2>
+
+    <form action="/ejecutar" method="post">
+        <label>Fecha (YYYY-MM-DD):</label>
+        <input type="text" name="fecha" required>
+        <button type="submit">Ejecutar</button>
+    </form>
+
+    {% if mensaje %}
+        <p style="color: green;">{{ mensaje }}</p>
+    {% endif %}
+</body>
+</html>
